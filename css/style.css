@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", Arial, sans-serif;
     background: #f4f1eb;
     color: #171717;
     line-height: 1.6;
@@ -351,7 +351,7 @@ h2 em {
     width: 100%;
     aspect-ratio: 4 / 5;
     object-fit: cover;
-    filter: grayscale(100%);
+    object-position: center top;
 }
 
 .image-label {
@@ -538,7 +538,7 @@ h2 em {
 
 
 /* =====================================================
-   WORKS
+    SELECTED HIGHLIGHTS
 ===================================================== */
 
 .heading-flex {
@@ -577,7 +577,7 @@ h2 em {
     min-height: 380px;
 
     display: flex;
-    align-items: space-between;
+    align-items: flex-start;
     justify-content: space-between;
 
     padding: 25px;
@@ -586,7 +586,7 @@ h2 em {
 }
 
 .work-image::after {
-    content: "VIEW PROJECT →";
+    content: "VIEW HIGHLIGHT →";
 
     position: absolute;
     right: 25px;
@@ -610,14 +610,23 @@ h2 em {
 
 .work-image-one {
     background: #d4d0c7;
+    background-image: url("../assets/north-studio.webp");
+    background-position: center;
+    background-size: cover;
 }
 
 .work-image-two {
     background: #c8d0c6;
+    background-image: url("../assets/orbit-finance.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .work-image-three {
     background: #d6c2b9;
+    background-image: url("../assets/mono-magazine.webp");
+    background-position: center;
+    background-size: cover;
 }
 
 .work-number,
@@ -726,7 +735,7 @@ h2 em {
 
 
 /* =====================================================
-   CV HERO
+    PLAYER PROFILE HERO
 ===================================================== */
 
 .cv-hero {
@@ -753,7 +762,7 @@ h2 em {
     aspect-ratio: 4 / 5;
     width: 100%;
     object-fit: cover;
-    filter: grayscale(100%);
+    object-position: center top;
 }
 
 .photo-number {
@@ -820,7 +829,7 @@ h2 em {
 
 
 /* =====================================================
-   CV SECTION
+    PROFILE SECTION
 ===================================================== */
 
 .cv-section {
